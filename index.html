@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Selamat Natal</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background-image: url('https://i.postimg.cc/7ZDZjvQV/c9d264b4441496ef15d055da8cb09a50.gif') ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .container {
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        max-width: 900px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* KIRI (GAMBAR) */
+    .left {
+        flex: 1;
+        position: relative;
+        cursor: pointer;
+    }
+    .left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* KANAN (TEKS) */
+    .right {
+        flex: 1;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #fafafa;
+    }
+
+    .right h1 {
+        font-size: 34px;
+        margin: 0;
+        font-weight: 800;
+        color: #c62828;
+    }
+
+    .right p {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #444;
+    }
+
+    /* RESPONSIVE HP */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        .right {
+            padding: 25px;
+            text-align: center;
+        }
+        .right h1 {
+            font-size: 28px;
+        }
+        .right p {
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- KIRI GAMBAR YANG BISA DIKLIK -->
+    <a href="https://heriyandi9494-cloud.github.io/portalsawe/" class="left">
+        <img src="https://i.postimg.cc/jd1D1kYp/14e887db62e85130e337afd1d3f9a367.gif" alt="Selamat Natal" />
+    </a>
+
+    <!-- KANAN TEKS -->
+    <div class="right">
+        <h1>Selamat Natal 🎄</h1>
+        <p>
+            𝐒𝐞𝐦𝐨𝐠𝐚 𝐝𝐚𝐦𝐚𝐢, 𝐬𝐮𝐤𝐚𝐜𝐢𝐭𝐚, 𝐝𝐚𝐧 𝐭𝐞𝐫𝐚𝐧𝐠 𝐊𝐫𝐢𝐬𝐭𝐮𝐬 𝐦𝐞𝐦𝐞𝐧𝐮𝐡𝐢 𝐡𝐚𝐭𝐢 𝐤𝐢𝐭𝐚 𝐬𝐞𝐦𝐮𝐚. 
+            𝐓𝐮𝐡𝐚𝐧 𝐦𝐞𝐦𝐛𝐞𝐫𝐤𝐚𝐭𝐢 𝐬𝐞𝐭𝐢𝐚𝐩 𝐥𝐚𝐧𝐠𝐤𝐚𝐡, 𝐮𝐬𝐚𝐡𝐚, 𝐝𝐚𝐧 𝐩𝐞𝐫𝐣𝐚𝐥𝐚𝐧𝐚𝐧 𝐡𝐢𝐝𝐮𝐩 𝐤𝐢𝐭𝐚 𝐝𝐢 𝐭𝐚𝐡𝐮𝐧 𝐢𝐧𝐢 𝐝𝐚𝐧 𝐭𝐚𝐡𝐮𝐧 𝐲𝐚𝐧𝐠 𝐚𝐤𝐚𝐧 𝐝𝐚𝐭𝐚𝐧𝐠.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
